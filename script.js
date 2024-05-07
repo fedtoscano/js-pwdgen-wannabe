@@ -7,3 +7,4 @@ const userSurname = prompt("Inserisci il tuo cognome")
 const userColor = prompt("Inserisci il tuo colore preferito")
 
 console.log(`La tua password è: ${userName}${userSurname}${userColor}24`)
+document.getElementById('psw').innerHTML= `La tua password é: ${userName}${userSurname}${userColor}24`
